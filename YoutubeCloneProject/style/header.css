@@ -1,0 +1,142 @@
+.header{
+    display:flex;
+    height:57px;
+    background-color:white;
+    border:1px solid rgb(226, 223, 223);
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    top:0;
+    left:-1px;
+    right:-1px;
+    z-index:1;
+
+
+    
+    
+}
+.left-header{
+    display:flex;
+    width:200px;
+
+    
+}
+.hamburger-picture{
+    height: 24px;
+    margin-left:24px;
+    margin-right:24px;
+    cursor:pointer;
+}
+.youtube-logo{
+    height:20px;
+    margin-top:2px;
+    cursor:pointer;
+}
+.middle-header{
+    display:flex;
+    flex:1;
+    align-items:center;
+    justify-content:center;
+}
+.search-bar{
+    font-size:17px;
+    height:40px;
+    width:300px;
+    padding-left:15px;
+    border:1px solid rgb(206, 203, 203);
+    border-radius:2px;
+}
+.search-picture-button{
+    border:1px solid rgb(206, 203, 203);
+    margin-left:-1px;
+    height:44px;
+    width:64px;
+    cursor:pointer;
+}
+.search-picture{
+    height:24px;
+    
+}
+.search-relative,.voice-relative,
+.upload-relative,.apps-relative,
+.notification-relative
+{
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    
+    
+}
+.search-absolute,.voice-absolute,
+.upload-absolute,.apps-absolute,
+.notification-absolute2
+{
+    position:absolute;
+    bottom:-60px;
+    background-color:rgb(80, 79, 79);
+    color:white;
+    padding:15px 10px;
+    border-radius:2px;
+    opacity:0;
+    pointer-events: none;
+    white-space:nowrap;
+    
+}
+.search-relative:hover .search-absolute,
+.voice-relative:hover .voice-absolute,
+.upload-relative:hover .upload-absolute,
+.apps-relative:hover .apps-absolute,
+.notification-relative:hover .notification-absolute2
+{
+    opacity:1;
+}
+.search-voice-button{
+    background-color:rgb(247, 244, 244);
+    border:none;
+    height:40px;
+    width:40px;
+    cursor:pointer;
+}
+.search-voice{
+    height:24px;
+    cursor:pointer;
+
+}
+
+
+.right-header{
+    display:flex;
+    width:200px;
+    justify-content:space-between;
+    align-items:center;
+}
+.upload-picture{
+    height:24px;
+    cursor:pointer;
+}
+.gerigi-picture{
+    height:24px;
+    cursor:pointer;
+}
+.notification-picture{
+    height:24px;
+    cursor:pointer;
+}
+.notification-relative{
+    position:relative;
+}
+.notification-absolute{
+    position:absolute;
+    font-size:9px;
+    background-color:red;
+    color:white;
+    border-radius:50%;
+    padding:3px 6px;
+    top:-1px;
+    right:-5px;
+}
+.profile-picture{
+    height:32px;
+    border-radius:50%;
+    cursor:pointer;
+}

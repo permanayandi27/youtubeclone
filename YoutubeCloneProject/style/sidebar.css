@@ -1,0 +1,34 @@
+.sidebar-flex-frame{
+    display:flex;
+    flex-direction:column;
+    width:70px;
+    background-color:white;
+    position:fixed;
+    top:57px;
+    left:0;
+    bottom:100px;
+    justify-content:space-between;
+    padding:25px 0px;
+    z-index:200;
+    
+    
+    
+}
+.sidebar-picture{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:10px;
+    height:25px;
+}
+
+
+
+.sidebar-picture img{
+    height:25px;
+    flex:1;
+    cursor:pointer;
+    margin-top:-12px;
+    
+}
